@@ -1,0 +1,390 @@
+body {
+    background-image: url(../images/white_carbonfiber.png);
+}
+
+h1 {  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    /* width: 270px; */
+    margin: 0;
+    text-align: center;
+    height: 100%;
+}
+
+.bot-boarder {
+    margin: 0;
+    border-bottom: 2px solid #777777;
+    background-color: #ffffff;
+    margin: 0 0 20px 0;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold; 
+    line-height: 65px; 
+    position: relative; 
+    height: 70px;
+    display: block;
+}
+
+ul {
+    height: 50px;
+    position: relative;
+}
+
+li{
+    display: inline;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+a {
+    margin: auto;
+    padding: 0 15px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+h2 {
+    color: #4aaaa5;
+    margin: 0 5px;
+    padding: 20px;
+    font-size: 190%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#bar {
+    background-color: #dddddd;
+    height: 3px;
+    width: 90%;
+    margin: auto;   
+}
+#profilePic {
+    float: left;
+    padding: 20px 25px 5px 25px;
+}
+
+p {
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 30px;
+    text-align: justify;
+}
+
+#p1 {
+    margin: 0 25px 0 25px;
+    padding: 10px 10px 10px 0; 
+}
+
+#p2 {
+    margin: 0 25px 30px 25px;
+    padding: 5px 10px 0 0;
+}
+
+aside {
+    height: 210px;
+    background-color: #ffffff;
+}
+
+h3 {
+    color: #4aaaa5;
+    text-align: left;
+    padding:20px;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#asideBar {
+    background-color: #dddddd;
+    height: 1px;
+    width: 90%;
+    margin: auto;
+}
+
+#gitIco {
+    position: relative;
+    top: 22px;
+}
+
+#linkedInIco {
+    position: relative;
+    top: 22px;   
+}
+
+#stackIco {
+    position: relative;
+    top: 22px; 
+}
+
+/* PORTFOLIO PAGE SPECIFIC CSS */
+
+.box {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#hangmanImg {
+    position: relative;
+    display: block;
+    padding: 20px 0 20px 30px;    
+}
+
+#hangman {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    z-index: 1;
+    width: 267px;
+    bottom: 30px;
+    left: 30px;  
+}
+
+#rpgGameImg {
+    position: relative;
+    display: block;
+    padding: 20px 0 20px 30px;
+}
+
+#rpgGame {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    z-index: 1;
+    width: 267px;
+    bottom: 30px;
+    left: 30px;   
+}
+
+#triviaImg {
+    position: relative;
+    display: block;
+    padding: 20px 0 20px 30px;
+}
+
+#trivia {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    z-index: 1;
+    width: 267px;
+    bottom: 30px;
+    left: 30px;   
+}
+
+#rutgersImg {
+    position: relative;
+    display: block;
+    padding: 20px 0 20px 30px;
+}
+
+#rutgers {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    z-index: 1;
+    width: 267px;
+    bottom: 30px;
+    left: 30px;
+}
+
+#rpsImg {
+    position: relative;
+    display: block;
+    padding: 20px 0 20px 30px;
+}
+
+#rps {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    z-index: 1;
+    width: 267px;
+    bottom: 30px;
+    left: 30px;
+}
+
+/* CONTACT PAGE SPECIFIC CSS */
+
+form {
+    height: 450px;
+    width: 100%;
+    margin: 0;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    position: relative;
+    top: -10px;
+}
+
+#etrName {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+#enterName {
+    width: 90%;
+    position: relative;
+}
+
+#etrEmail {
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+#enterEmail {
+    width: 90%;
+    position: relative;
+}
+
+#etrMsg {
+    position: relative;
+    top: 80px;
+    left: 20px;
+
+}
+#message {
+    width: 90%;
+    height: 150px;
+    position: relative;  
+}
+#ass {
+    position: relative;
+    top: -40;
+}
+
+#etrSubmit {
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+
+/* FOOTER SPECIFIC CSS */
+
+footer {
+    background-color: #666666;
+    clear: both;
+    height: 55px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+#preFootBar {
+    background-color: #4aaaa5;
+    width: 100%;
+    height: 8px;
+}
+
+#footTxt {
+    padding: 0 0 80px 0;
+    text-align: center;
+    color: #dddddd; 
+}
+
+@media (min-width: 462px) {
+    #enterName {
+        top: 11px;
+        left: -45px; 
+    }  
+    #enterEmail {
+        top: 11px;
+        left: -43px;
+    }      
+}
+
+@media (min-width: 680px) {
+    #etrMsg {
+        top: 100px;
+        left: -45px;
+    }
+    #ass {
+        top: -160px;
+        left: 65px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        width: 270px;
+    }
+    #rpsImg, #triviaImg, #hangmanImg {
+        left: 30px;
+    }
+    #rpgGameImg, #rutgersImg {
+        left: -15px;
+    }
+    #rps, #trivia, #hangman {
+        left: 60px;
+    }
+    #rutgers, #rpgGame {
+        left: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    aside {
+       width: 293.3px;
+    }
+    h3 {
+        text-align: center;
+        padding: 20px 0;
+    }
+    #rpsImg, #rutgersImg, #triviaImg, #rpgGameImg, #hangmanImg {
+        left: -17px;
+    }
+    #rps, #rutgers, #trivia, #rpgGame, #hangman {
+        left: 13px;
+    }
+    #etrMsg {
+        top: 80px;
+        left: 20px;
+    }
+    #ass {
+        top: 0;
+        left: 0; 
+    }
+}
+
+@media (min-width: 1200px) {
+    #rpsImg, #triviaImg, #hangmanImg {
+        left: 30px;
+    }
+    #rpgGameImg, #rutgersImg {
+        left: -15px;
+    }
+    #rps, #trivia, #hangman {
+        left: 60px;
+    }   
+    #rutgers, #rpgGame {
+        left: 15px;
+    }
+    #etrMsg {
+        top: 100px;
+        left: -45px;
+    }
+    #ass {
+        top: -160px;
+        left: 65px; 
+    }
+}
