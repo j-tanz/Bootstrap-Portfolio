@@ -7,7 +7,6 @@ h1 {
     border: none;
     background-color: #4aaaa5;
     color: #ffffff;
-    /* width: 270px; */
     margin: 0;
     text-align: center;
     height: 100%;
@@ -40,6 +39,7 @@ li{
     position: relative;
     top: 20px;
 }
+
 a {
     margin: auto;
     padding: 0 15px;
@@ -62,6 +62,7 @@ h2 {
     width: 90%;
     margin: auto;   
 }
+
 #profilePic {
     float: left;
     padding: 20px 25px 5px 25px;
@@ -119,6 +120,14 @@ h3 {
 #stackIco {
     position: relative;
     top: 22px; 
+}
+
+.fixit {
+    margin-bottom: 75px;
+}
+
+.fixit2 {
+    margin-bottom: 45px;
 }
 
 /* PORTFOLIO PAGE SPECIFIC CSS */
@@ -260,13 +269,14 @@ label {
     position: relative;
     top: 80px;
     left: 20px;
-
 }
+
 #message {
     width: 90%;
     height: 150px;
     position: relative;  
 }
+
 #ass {
     position: relative;
     top: -40;
@@ -302,11 +312,14 @@ footer {
     color: #dddddd; 
 }
 
+/* MEDIA QUERIES */
+
 @media (min-width: 462px) {
     #enterName {
         top: 11px;
         left: -45px; 
     }  
+
     #enterEmail {
         top: 11px;
         left: -43px;
@@ -318,6 +331,7 @@ footer {
         top: 100px;
         left: -45px;
     }
+
     #ass {
         top: -160px;
         left: 65px;
@@ -328,15 +342,19 @@ footer {
     h1 {
         width: 270px;
     }
+
     #rpsImg, #triviaImg, #hangmanImg {
         left: 30px;
     }
+
     #rpgGameImg, #rutgersImg {
         left: -15px;
     }
+
     #rps, #trivia, #hangman {
         left: 60px;
     }
+
     #rutgers, #rpgGame {
         left: 15px;
     }
@@ -346,20 +364,25 @@ footer {
     aside {
        width: 293.3px;
     }
+
     h3 {
         text-align: center;
         padding: 20px 0;
     }
+
     #rpsImg, #rutgersImg, #triviaImg, #rpgGameImg, #hangmanImg {
         left: -17px;
     }
+
     #rps, #rutgers, #trivia, #rpgGame, #hangman {
         left: 13px;
     }
+
     #etrMsg {
         top: 80px;
         left: 20px;
     }
+
     #ass {
         top: 0;
         left: 0; 
@@ -370,19 +393,24 @@ footer {
     #rpsImg, #triviaImg, #hangmanImg {
         left: 30px;
     }
+
     #rpgGameImg, #rutgersImg {
         left: -15px;
     }
+
     #rps, #trivia, #hangman {
         left: 60px;
-    }   
+    }  
+
     #rutgers, #rpgGame {
         left: 15px;
     }
+
     #etrMsg {
         top: 100px;
         left: -45px;
     }
+
     #ass {
         top: -160px;
         left: 65px; 
